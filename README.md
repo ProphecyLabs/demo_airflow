@@ -9,10 +9,12 @@ This is a repository containing code for execution of a simple Airflow pipeline 
 1. Clone the repository to your local machine.
 2. Start Docker Desktop.
 3. Open Terminal. Navigate to the folder containing cloned repository:
-   ``` cd path/to/cloned repository
+   ``` 
+   cd path/to/cloned repository
    ```
 4. Start Airflow in Docker by running 
-   ```docker-compose -f docker-compose.yaml up -d
+   ```
+   docker-compose -f docker-compose.yaml up -d
    ```
 5. After docker-compose finishes, go to localhost:8080 in your browser to see Airflow UI. Enter login and password (airflow/airflow by defaukt) to log in.
 ![alt text](https://miro.medium.com/max/1400/1*Nc17yaLOx87o7i_-N62jIA.png)
