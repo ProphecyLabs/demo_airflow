@@ -12,6 +12,12 @@ This is a repository containing code for execution of a simple Airflow pipeline 
    ``` 
    cd path/to/cloned repository
    ```
+**3.1** If you are on Linux machine **only**, run 
+```
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+```
+to align Airflow user ID with your user ID. This is to make sure that Airflow does not create stuff as a root user.
+
 4. Start Airflow in Docker by running 
    ```
    docker-compose -f docker-compose.yaml up
