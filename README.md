@@ -14,15 +14,15 @@ This is a repository containing code for execution of a simple Airflow pipeline 
    ```
 4. Start Airflow in Docker by running 
    ```
-   docker-compose -f docker-compose.yaml up -d
+   docker-compose -f docker-compose.yaml up
    ```
 5. After docker-compose finishes, go to localhost:8080 in your browser to see Airflow UI. Enter login and password (airflow/airflow by defaukt) to log in.
 ![alt text](https://miro.medium.com/max/1400/1*Nc17yaLOx87o7i_-N62jIA.png)
 
 **Triggering a DAG**
 1. Move DAG slider from 'off' to 'on'.
-2. Click 'Run'button on the right.
-3. Click on green circle under 'Runs'to view execution progress.
+2. Click 'Run' button on the right.
+3. Click on green circle under 'Runs' to view execution progress.
 
 **Adding a new DAG**
 1. Navigate to dags folder in your local repository copy. 
